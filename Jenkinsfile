@@ -5,7 +5,7 @@ pipeline {
         stage('Run Echo') {
             steps {
                 script {
-                    echo "Hi"
+                    echo "Hi Hello"
                 }
             }
         }
