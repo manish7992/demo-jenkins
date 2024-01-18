@@ -16,7 +16,7 @@ pipeline {
                 }
             }
         }
-        stage('2nd step') {
+        stage('Building Docker Image ') {
             steps {
                 script {
                     echo "sudo docker build -t devops-demo:v1 ."
