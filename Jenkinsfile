@@ -16,5 +16,12 @@ pipeline {
                 }
             }
         }
+        stage('2nd step') {
+            steps {
+                script {
+                    echo "sudo docker build -t devops-demo:v1 ."
+                }
+            }
+        }
     }
 }
